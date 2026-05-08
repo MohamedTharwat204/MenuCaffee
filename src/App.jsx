@@ -9,7 +9,7 @@ import { Toaster } from 'react-hot-toast'
 function App() {
 
   return (
-    <div className=' w-full h-full'>
+    <div className=' w-full h-dvh'>
 
 
       <Nav />
@@ -20,6 +20,7 @@ function App() {
           <Route path='/favorites' element={<PageFavorites />} />
         </Routes>
       </div>
+
 
     </div>
   )
