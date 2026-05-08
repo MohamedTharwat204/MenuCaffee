@@ -18,7 +18,7 @@ export default function Nav() {
         <div className=' '>
 
             <div className="flex  sm:w-[50%]   justify-center  items-center  ">
-                <div className="border w-[60%] md:w-[40%] bg-[#706760]   shadow-emerald-600  shadow-2xl   left-1/2 -translate-x-1/2   border-[#706760] py-4 flex justify-around items-center gap-1  h-20 rounded-2xl   md:top-2 bottom-0  mb-6 md:mb0   fixed">
+                <div className="border w-[65%] md:w-[40%]    shadow-emerald-600  shadow-2xl   left-1/2 -translate-x-1/2   border-[#706760] py-1 flex justify-around items-center gap-1  h-20 rounded-2xl   md:top-2 top-100  mb-1 md:mb0   fixed">
                     <NavLink to='/' end className={({ isActive }) => (isActive ? 'bg-[#d4e5e0a8] rounded-2xl  flex items-center justify-center h-16   transition-all duration-300 scale-110' : 'opacity-50')}>
                         <div className="group relative px-4 cursor-pointer">
                             <div className="flex h-10 w-10 items-center justify-center rounded-full hover:text-blue-900 ">

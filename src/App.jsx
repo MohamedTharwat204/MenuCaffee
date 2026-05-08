@@ -13,13 +13,14 @@ function App() {
 
 
       <Nav />
-      <Toaster />
+     <Toaster/>
       <div className="  w-full ">
         <Routes>
           <Route path='/' element={<PageMonu />} />
           <Route path='/favorites' element={<PageFavorites />} />
         </Routes>
       </div>
+
     </div>
   )
 }
