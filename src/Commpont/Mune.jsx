@@ -2,11 +2,13 @@ import img from '../assets/n.svg';
 import img1 from '../assets/nav.svg';
 export default function Mune() {
     return (
-        <div className=" fixed flex  items-center justify-between  pl-6 md:pl-1 w-full md:mx-5 ">
+        <div className=" fixed flex  items-center justify-between  pl-6 md:pl-1 w-full md:mx-5 gap-2 ">
 
             <img src={img} alt="" className='w-20 h-15  object-cover rounded-2xl' />
-            <div className="overflow-hidden whitespace-nowrap  py-4 w-[68%] md:w-[50%] h-10 rounded-2xl">
-                <div className="animate-marquee inline-block text-white text-2xl">
+            {/* <div className="overflow-hidden whitespace-nowrap  py-4 w-[55%] md:w-[50%] h-10 rounded-2xl flex  justify-center"> */}
+            <div className="overflow-hidden w-[55%] md:w-[60%] h-10 flex md:pt-3 whitespace-nowrap rounded-2xl">
+
+                <div className="animate-marquee inline-block text-white text-xl">
                     {/* ☕ Coffee &nbsp;&nbsp;&nbsp;
                     🍰 Desserts &nbsp;&nbsp;&nbsp;
                     🥤 Fresh Juice &nbsp;&nbsp;&nbsp;
@@ -17,7 +19,9 @@ export default function Mune() {
 
                     30% discount on three orders &nbsp;&nbsp;&nbsp;
                 </div>
-            </div>
+            </div >
+
+
             <div className="navbar w-20 md:w-25   ">
                 <div>
                     {/* <div className="dropdown   ">

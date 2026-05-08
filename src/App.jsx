@@ -11,7 +11,7 @@ function App() {
   return (
     <div className=' w-full h-dvh'>
 
-  
+
       <Nav />
      <Toaster/>
       <div className="  w-full ">
