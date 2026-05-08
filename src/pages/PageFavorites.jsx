@@ -20,9 +20,9 @@ export default function PageFavorites() {
     <div className='w-full h-dvh flex  px-2 bg-stone-400'>
 
 
-      <div className=" flex flex-col flex-1 md:mt-30 mt-10 ">
+      <div className=" flex flex-col flex-1 md:mt-30 mt-6 ">
 
-        <div className="overflow-y-auto  h-[84%] md:h-auto">
+        <div className="overflow-y-auto  h-[89%] md:h-auto ">
 
           <div className="h-auto p-5 ">
             <Favorites_cart el={favorites} />

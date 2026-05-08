@@ -86,7 +86,7 @@ export default function Favorites_cart({ el }) {
 
 
         <div key={index} className='h-25 w-full  md:h-75  bg-white  items-center  md:flex-col flex rounded-2xl'>
-          <img className='w-24 p-2 md:w-full md:h-[60%]  rounded-2xl' src={el.img ? el.img : noimg} alt="" />
+          <img className='w-24 h-23 p-2 md:w-full md:h-[60%]  object-cover rounded-2xl' src={el.img ? el.img : noimg} alt="" />
           <div className='flex flex-col md:flex-row w-full md:justify-between md:items-center px-4 h-20 relative '>
             <div className='flex flex-col gap-2  h-full  w-full '>
               <p className='text-[16px]  underline  underline-offset-4 flex w-full' >{el.Name} </p>
