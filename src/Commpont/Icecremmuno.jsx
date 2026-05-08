@@ -26,7 +26,23 @@ export default function Icecremmuno() {
     <div className=" flex flex-col gap-4">
       <p className='w-35 h-10 bg-pink-500 text-[26px] flex items-center rounded-xl pl-2 shadow-stone-700 shadow-2xl'>Ice Cream</p>
       {/* <p className="text-[18px] font-light underline-offset-8 underline p-4"> Polo ice cream for 25 pounds</p> */}
+      <div className="w-full flex items-center justify-center">
+        <div className="overflow-hidden whitespace-nowrap  py-4 w-[68%] md:w-[50%] h-16 rounded-2xl">
+                <div className="animate-marquee inline-block  text-2xl text-black">
+                    {/* ☕ Coffee &nbsp;&nbsp;&nbsp;
+                    🍰 Desserts &nbsp;&nbsp;&nbsp;
+                    🥤 Fresh Juice &nbsp;&nbsp;&nbsp;
+                    Ice Cream */}
+                 🍦  20% discount on three scoops of ice cream &nbsp;&nbsp;&nbsp;
+
+
+                 
+                </div>
+            </div>
+      </div>
+      
       <div className='flex flex-col'>
+           
         <div className="flex  items-center justify-center w-full">
           <div className="carousel  rounded-2xl carousel-center   max-w-xs md:min-w-[82%]  " >
             <div className='flex  gap-2 md:gap-4'>
