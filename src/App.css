@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+ *{
+     font-family: "Inter", sans-serif;
+    
+   
+
+ }
+ @theme{
+    --color-mairGren:#10B981;
+    --color-fontcohle:#0F172B;
+    --font-Lexend: "Lexend", sans-serif;
+    --color-bordar:#E2E8F4;
+    --color-beige:#F5F5DC;
+    --color-bg:#E2E8F0;
+ }
