@@ -34,13 +34,13 @@ return (
         <div className='flex flex-col'>
             <p id="coffid" className="font-bold text-[26px] md:text-[36px] underline  p-2 md:pt-6 md:px-10 "> Cold Coffee</p>
             <div className="flex  items-center justify-center w-full">
-                <div className="carousel  rounded-2xl carousel-center   max-w-xs md:min-w-[82%] h-95 md:h-90 " >
-                    <div className='grid grid-cols-2 md:grid-cols-5 gap-2 md:gap-4'>
+                <div className="carousel  rounded-2xl carousel-center   max-w-xs md:min-w-[82%]  md:h-90 " >
+                    <div className=' flex md:grid  md:grid-cols-5 gap-2 md:gap-4'>
                         {Date.map((el, index) => {
                             return (
-                                <div key={index} className='w-38 md:w-55 h-auto gap-2 bg-emerald-50 rounded-2xl p-2 flex flex-col justify-between shrink-0'>
+                                <div key={index} className='w-52 md:w-55 h-auto gap-2 bg-emerald-50 rounded-2xl p-2 flex flex-col justify-between shrink-0'>
                                     <img className='rounded-2xl  object-fill w-full h-35 ' src={el.img} alt="" />
-                                    <div className='flex  flex-col gap-1 h-32 md:h-21'>
+                                    <div className='flex  flex-col gap-1 h-22 md:h-21'>
                                         <h1 className='underline text-[14px] md:text-[16px]' >{el.Name}</h1>
                                         <p className='text-[12px] text-gray-400'>{el.Description}</p>
                                     </div>

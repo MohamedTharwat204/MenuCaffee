@@ -28,7 +28,7 @@ export default function Dessmuno() {
 
   return (
 
-    <div>
+    <div className=" flex flex-col gap-4">
       <p className='w-30 h-10 bg-amber-800 text-[26px] flex items-center rounded-xl pl-2 shadow-stone-700 shadow-2xl'>Desserts</p>
 
       <div className='flex flex-col'>

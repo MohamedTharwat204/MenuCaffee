@@ -26,7 +26,7 @@ export default function PageMonu() {
                         <div id="Cold" className="h-auto w-full bg-linear-to-t from-blue-100 to-cyan-400 rounded-2xl  px-4 py-3"> <Coldmuno/></div>
                         <div id="Juic" className="h-auto w-full bg-linear-to-t from-blue-600 to-cyan-900 rounded-2xl  px-4 py-3"> <Juicesmuno/></div>
                         <div id="Dess" className="h-auto w-full bg-linear-to-b  from-amber-900 to-orange-50 rounded-2xl  px-4 py-3"> <Dessmuno /></div>
-                        <div id="Icecr" className="h-auto w-full bg-linear-to-b from-pink-200 to-yellow-100 rounded-2xl px-4 py-3"> <Icecremmuno /></div>
+                        <div id="Icecr" className="h-125 w-full bg-linear-to-b from-pink-200 to-yellow-100 rounded-2xl px-4 py-3"> <Icecremmuno /></div>
                     </div>
 
                 </div>
