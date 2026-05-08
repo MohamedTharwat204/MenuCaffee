@@ -12,10 +12,10 @@ export default function PageMonu() {
 
 
     return (
-        <div className="w-full   max-h-screen overflow-hidden  flex  ">
+        <div className="w-full  h-dvh  max-h-screen overflow-hidden  flex  ">
             <div className="mt-2 md:mt-16    ">  <Mune /> </div>
 
-            <div className="flex-1 flex flex-col mt-20 md:mt-34  border-t-2  border-amber-950 ">
+            <div className="flex-1 flex flex-col mt-20 md:mt-34  border-t-2  border-amber-950   ">
 
                     <div className="flex-1 overflow-y-auto  px-2 pt-4 h-full">
 
