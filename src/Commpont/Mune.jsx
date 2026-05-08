@@ -13,7 +13,6 @@ export default function Mune() {
                     🍦 Ice Cream */}
                     5% discount on every order &nbsp;&nbsp;&nbsp;
 
-
                     20% discount on any order &nbsp;&nbsp;&nbsp;
 
                     30% discount on three orders &nbsp;&nbsp;&nbsp;

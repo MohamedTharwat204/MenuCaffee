@@ -5,7 +5,6 @@ import Nav from './Commpont/Nav'
 import PageMonu from './pages/PageMonu'
 import PageFavorites from './pages/PageFavorites'
 import { Toaster } from 'react-hot-toast'
-import Marquee from 'react-fast-marquee'
 
 function App() {
 
