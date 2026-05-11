@@ -30,15 +30,15 @@ export default function Otherdrinks() {
 
   return (
     <div>
-      <div className='flex flex-col'>
+      <div className='flex flex-col '>
         <p className="font-bold text-[26px] md:text-[36px] underline  p-2 md:pt-6 md:px-10"> Other drinks </p>
-        <div className="flex items-center justify-center w-full animate-fade-in-up ">
+        <div className="flex items-center justify-center w-full  ">
           <div className="carousel  rounded-2xl carousel-center  h-93 md:h-95  max-w-xs md:min-w-[82%]" >
             <div className=" grid  grid-cols-2 md:grid-cols-5  gap-2 md:gap-4 ">
 
               {Date.map((el, index) => {
                 return (
-                  <div key={index} className='w-39 md:w-55 h-auto gap-2 bg-emerald-50 rounded-2xl p-2 flex flex-col justify-between shrink-0'>
+                  <div key={index} className='w-39 md:w-55 h-auto gap-2  bg-emerald-50 rounded-2xl p-2 flex flex-col justify-between shrink-0'>
                     <img className='rounded-2xl  object-fill w-full h-37 ' src={el.img} alt="" />
                     <div className='flex flex-col  gap-1 h-19 md:h-22'>
                       <h1 className='underline text-[12px] md:text-[18px]'>{el.Name}</h1>

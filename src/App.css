@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap');
 @import "tailwindcss";
+@import 'tailwind-animations';
 @plugin "daisyui";
 
  *{
@@ -17,16 +18,18 @@
     --color-beige:#F5F5DC;
     --color-bg:#E2E8F0;
  }
- @keyframes marquee {
-  0% {
-    transform: translateX(100%);
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(80px);
   }
 
-  100% {
-    transform: translateX(-100%);
+  to {
+    opacity: 1;
+    transform: translateY(4);
   }
 }
 
-.animate-marquee {
-  animation: marquee 18s linear infinite;
+.animate-fade {
+  animation: fadeIn 0.7s ease;
 }

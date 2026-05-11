@@ -75,8 +75,8 @@ export default function Favorites_cart({ el }) {
     //                   fill="white"
     //                   d="M0 0H33H0ZM37 35C37 39.4183 33.4183 43 29 43H4C-0.418278 43 -4 39.4183 -4 35H4H29H37ZM4 43C-0.418278 43 -4 39.4183 -4 35V0H4V35V43ZM37 0V35C37 39.4183 33.4183 43 29 43V35V0H37Z"
     //                 ></path>
-    //                 <path strokewidth="4" stroke="white" d="M12 6L12 29"></path>
-    //                 <path strokewidth="4" stroke="white" d="M21 6V29"></path>
+    //                 <path strokeWidth="4" stroke="white" d="M12 6L12 29"></path>
+    //                 <path strokeWidth="4" stroke="white" d="M21 6V29"></path>
     //               </svg>
     //             </button> 
     //    </p>
@@ -85,7 +85,7 @@ export default function Favorites_cart({ el }) {
       {el.map((el, index) => (
 
 
-        <div key={index} className='h-25 w-full  md:h-75  bg-white  items-center  md:flex-col flex rounded-2xl'>
+        <div key={index} className='h-25 w-full  md:h-75  bg-white animate-fade items-center  md:flex-col flex rounded-2xl '>
           <img className='w-24 h-23 p-2 md:w-full md:h-[60%]  object-cover rounded-2xl' src={el.img ? el.img : noimg} alt="" />
           <div className='flex flex-col md:flex-row w-full md:justify-between md:items-center px-4 h-20 relative '>
             <div className='flex flex-col gap-2  h-full  w-full '>

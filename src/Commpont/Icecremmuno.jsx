@@ -23,8 +23,8 @@ export default function Icecremmuno() {
     setFavorites(copy)
   }
   return (
-    <div className=" flex flex-col gap-4">
-      <p className='w-35 h-10 bg-pink-500 text-[26px] flex items-center rounded-xl pl-2 shadow-stone-700 shadow-2xl'>Ice Cream</p>
+    <div className=" flex flex-col gap-4 ">
+      <p className='w-35 h-10 bg-pink-500 text-[26px] flex items-center rounded-xl pl-2 shadow-stone-700 shadow-2xl '>Ice Cream</p>
       {/* <p className="text-[18px] font-light underline-offset-8 underline p-4"> Polo ice cream for 25 pounds</p> */}
       <div className=" flex items-center justify-center">
         <div className="overflow-hidden  flex    h-8 rounded-2xl">

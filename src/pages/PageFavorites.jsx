@@ -24,7 +24,7 @@ export default function PageFavorites() {
 
         <div className="overflow-y-auto  h-[87%] md:h-auto ">
 
-          <div className="h-auto p-5 ">
+          <div className="h-auto p-5  ">
             <Favorites_cart el={favorites} />
           </div>
 
