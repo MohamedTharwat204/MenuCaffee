@@ -18,6 +18,19 @@
     --color-beige:#F5F5DC;
     --color-bg:#E2E8F0;
  }
+ @keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 18s linear infinite;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
